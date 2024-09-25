@@ -1,6 +1,8 @@
 // У файлі render-functions.js створи функції для відображення елементів інтерфейсу.
-export function renderGallery(images) {
+
+export async function renderGallery(images) {
   const galleryContainer = document.querySelector('.gallery');
+
   const markup = images
     .map(image => {
       return `  <li class="gallery-item">

@@ -136,8 +136,7 @@ input[type='text'] {
   left: 0;
   top: 0;
   transform: rotate(45deg);
-  position: fixed;
-
+  position: absolute;
   width: 48px;
   height: 48px;
   background: #4e75ff;
@@ -175,3 +174,21 @@ input[type='text'] {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+.btn-load {
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  display: none;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
